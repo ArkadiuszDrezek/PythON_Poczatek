@@ -8,6 +8,7 @@ def run_example():
     multiple_of_three = [number for number in range(1, 31) if number % 3 == 0]
     multiple_of_five = [number for number in range(1, 31) if number % 5 == 0]
 
+    
     result = multiple_of_three + multiple_of_five
     print(result)
 
